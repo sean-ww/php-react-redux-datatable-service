@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+# Turn on the engine:
+RewriteEngine on
+
+# Use index.php
+RewriteRule ^ index.php
+
+</IfModule>

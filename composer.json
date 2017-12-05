@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "datatable\\": "src"
+        }
+    },
+    "require": {
+        "slim/slim": "2.6.3",
+        "illuminate/database": "4.1.30",
+        "vlucas/valitron": "^1.3"
+    }
+}
