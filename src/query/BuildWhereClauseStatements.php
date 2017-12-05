@@ -55,7 +55,7 @@ class BuildWhereClauseStatements
     public function buildWhereArray()
     {
         foreach ($this->clauses as $clause) {
-            if (is_a($clause, '\systems\datatable\query\where\WhereClauseInterface')) {
+            if (is_a($clause, '\datatable\query\where\WhereClauseInterface')) {
                 $whereClause = $this->buildWhereClauseDynamically($clause);
                 $this->mergeWheres($whereClause);
                 continue;
